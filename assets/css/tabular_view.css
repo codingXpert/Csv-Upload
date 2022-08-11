@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*background: url('./assets/brick-wall-1175940 (1).jpg');
+	background-size: cover;*/
+	background: #74523c;
+	height: 100vh;
+	width: 100vw;
+}
+
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+main{
+	position: relative;
+	height: 85%;
+	width: 70%;
+	top: 10%;
+	left: 15%;
+	background: rgb(0, 0, 0,0.6);
+}
+
+.h1-style{
+	text-align: center;
+	font-size: 5rem;
+	font-family: monospace;
+	font-weight: 500;
+	color: white;
+	text-decoration: important;
+}
+
+.p-style{
+	text-align: center;
+	font-size: 1rem;
+	font-family: cursive;
+	color: #c19376;
+	margin-top: -10px;
+}
+
+#home-button{
+	background: blue;
+	width: 7%;
+    height: 70%;
+	text-align: center;
+    margin-top: 0.3rem;
+}
+
+#home-button:hover{
+    opacity: 0.5;
+}
+
+#home-button a{
+    text-decoration: none;
+    color: white;
+}
+
+#total-rows{
+    color: white;
+    font-size: 1.3rem;
+}
+
+form{
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+input{
+	color: black;
+	text-align: center;
+	font-family: unset;
+	border: none;
+	background: #efefef;
+}
+
+.submit-button{
+	background: #d42b2b;
+	color: white;
+	font-size: 1.1rem;
+	border: none;
+}
+
+hr{
+	color: white;
+}
+
+.form-desc{
+	margin-top: 1.5rem;
+	font-weight: 400;
+	color: #c19376;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+#files-container{
+	width: 40%;
+	height: 50%;
+	overflow: auto;
+	background: rgb(0, 0, 0,0.2);
+	margin: auto;
+}
+
+.file{
+	width: 90%;
+	height: 20%;
+	margin: auto;
+	background: black;
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.9rem;
+}
+
+#table-container{
+	height: 80%;
+	width: 90%;
+	margin: auto;
+	margin-top: 2rem;
+	background: white;
+	overflow: auto;
+}
+
+th,td{
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+}
+
+.spacer30 {
+    margin: 600px 0;
+  }
+  #go {
+    float: right;
+    width: 50px;
+    background-color: #efefef;
+    color: black;
+  }
+  #searchItem {
+    float: left;
+    width: 200px;
+    
+  }
+  .input-group {
+    width: 260px;
+  }
+
+  /* Media Queries */
+  @media screen and (max-width: 600px) {
+	  html{
+		  font-size: 9px;
+	  }
+	  main{
+		  width: 90%;
+		  left: 5%;
+		  top: 5%;
+	  }
+	  header{
+		  width: 100;
+	  }
+	  form{
+		  width: 50%;
+	  }
+	  .input-group{
+		  width: 100%;
+	  }
+	  #searchItem{
+		  width: 80%;
+	  }
+	  #go{
+		  width: 20%;
+	  }
+	  #home-button{
+		width: 10%;
+		height: 45%;
+		margin-top: 0.1rem;
+		padding-top: 0.4rem;
+	}
+	#table-container{
+		margin-top: 0rem;
+	}
+  }
+  

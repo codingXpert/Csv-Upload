@@ -61,6 +61,7 @@ module.exports.open = function(req,res){
   .on('data', (data) => csvParsedData.push(data))
   .on('end', () => {
     return res.render('tabular_view',{
+  
       csvData: csvParsedData
     });
   });
